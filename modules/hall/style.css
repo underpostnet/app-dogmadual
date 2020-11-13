@@ -1,21 +1,31 @@
 
 
-.sec1 {
-
-	font-size: 30px;
-
-}
 
 .content-logo {
 	
-	height: auto;
 	text-align: center;
 
 }
 
 .img-logo {
 
-	width: 200px;
-	margin: auto;
+	width: 60px;
+
+}
+
+.txt-logo-0 {
+
+	position: relative;
+	top: -20px;
+	font-size: 25px;
+
+}
+
+.txt-logo-1 {
+
+	font-size: 12px;
+	color: #dadada;
+	top: -20px;
+	left: 10px;
 
 }
