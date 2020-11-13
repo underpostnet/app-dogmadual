@@ -1,0 +1,16 @@
+
+
+.img-git {
+
+	width: 150px;
+	filter: invert(100%);
+	margin: auto;
+	transition: .3s;
+
+}
+
+.img-git:hover {
+
+	width: 160px;
+
+}

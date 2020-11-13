@@ -1,0 +1,33 @@
+{
+   "@context":"https://schema.org",
+   "@graph":[
+      {
+         "@type":"WebSite",
+         "@id":"https://www.dogmadual.com/",
+         "url":"https://www.dogmadual.com/",
+         "name":"Virtual Machine Development",
+         "description":"",
+         "potentialAction":[
+            {
+               "@type":"SearchAction",
+               "target":"https://www.dogmadual.com/?s={search_term_string}",
+               "query-input":"required name=search_term_string"
+            }
+         ],
+         "inLanguage":"es"
+      },
+      {
+         "@type":"WebPage",
+         "@id":"https://www.dogmadual.com/",
+         "url":"https://www.dogmadual.com/",
+         "name":"dogmadual.com - Hosting WordPress y Desarrollo Web",
+         "isPartOf":{
+            "@id":"https://www.dogmadual.com/"
+         },
+         "datePublished":"2019-02-14T15:28:33+00:00",
+         "dateModified":"2020-10-31T22:24:12+00:00",
+         "description":"Virtual Machine Development",
+         "inLanguage":"es"
+      }
+   ]
+}
