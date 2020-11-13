@@ -17,7 +17,7 @@ s('body').style.backgroundSize = '100%';
 
 
 mod_hall.init();
-mod_git.init();
+/* mod_git.init(); */
 
 
 
