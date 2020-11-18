@@ -32,6 +32,7 @@ var str3es = "<a class='button' target='_blank' href='https://www.cyberiaonline.
 
 mod_loader.init();
 mod_hall.init();
+mod_realtime_tech.init();
 /* mod_realtime_projects.init(); */
 /* mod_git.init();*/
 
