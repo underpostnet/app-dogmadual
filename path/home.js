@@ -7,13 +7,13 @@
 s('html').style.color = 'white';
 s('body').style.color = 'white';
 s('html').style.background = 'black';
-s('body').style.background = 'url("'+path+'/assets/fondo2.gif")';
+s('body').style.background = 'url("'+path+'/assets/background.gif")';
 /* s('body').style.backgroundSize = '100% 100%' */
 s('body').style.backgroundSize = '100%';
 
-notclick('html', 0, false);
+/*notclick('html', 0, false);
 notclick('html', 1, false);
-notclick('html', 2, false);
+notclick('html', 2, false);*/
 
 
 /*

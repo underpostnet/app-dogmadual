@@ -12,7 +12,7 @@ var mod_loader = {
 
 			<div class='abs center' style='top: 40%;'>
 
-				<img class='in img-loader' src='`+path+`/assets/fondo3.gif'>
+				<img class='in img-loader' src='`+path+`/assets/loading.gif'>
 
 				<br>
 
