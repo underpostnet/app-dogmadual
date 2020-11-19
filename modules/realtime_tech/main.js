@@ -50,9 +50,11 @@ var mod_realtime_tech = {
 
     append('body', `
 
-    <div class='in tech-title' style='text-align: center;'>SERVER <br> TECH STACK</div>
-    <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; OPERATIVE <span class='abs legend-green' style='color: green; font-size: 50px;'>•</span></div>
-    <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; PENDING <span class='abs legend-green' style='color: #e3c70b; font-size: 50px;'>•</span></div>
+    <div class='in content-legend'>
+      <div class='in tech-title' style='text-align: center;'>SERVER <br> TECH STACK</div>
+      <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; OPERATIVE <span class='abs legend-green' style='color: green; font-size: 50px;'>•</span></div>
+      <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; PENDING <span class='abs legend-green' style='color: #e3c70b; font-size: 50px;'>•</span></div>
+    </div>
 
     `);
 

@@ -3,8 +3,8 @@ pad_1 {
 
   padding-left: 20px;
   padding-right: 20px;
-  border: 2px solid white;
-  border-radius: 10px;
+  /* border: 2px solid white; */
+  /* border-radius: 10px; */
 
 }
 
@@ -28,11 +28,18 @@ pad_0 {
 
   font-weight: bold;
   padding: 5px;
-  font-size: 25px;
-  background: white;
+  font-size: 20px;
   margin: auto;
   width: 200px;
-  color: black;
+
+}
+
+.content-legend {
+
+  border: 2px solid white;
+  padding: 15px;
+  margin: auto;
+  width: 220px;
 
 }
 
@@ -40,10 +47,8 @@ pad_0 {
 
   font-weight: bold;
   padding: 5px;
-  background: white;
   margin: auto;
   width: 200px;
-  color: black;
 
 }
 
