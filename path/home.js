@@ -34,7 +34,7 @@ mod_loader.init();
 mod_hall.init();
 mod_realtime_tech.init();
 /* mod_realtime_projects.init(); */
-/* mod_git.init();*/
+mod_git.init();
 
 
 

@@ -25,6 +25,16 @@ var mod_git = {
 
 		<br>
 
+		<br>
+
+		<div class='in credit'>© 2020 DOGMADUAL.com</div>
+
+		<br>
+
+		<br>
+
+		<br>
+
 
 		`);
 

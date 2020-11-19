@@ -4,72 +4,41 @@ var mod_realtime_tech = {
 
     const tech_header = [
 
-      "SCRIPTING",/* 0 */
-      "HTTP SERVER",/* 1 */
-      "WEBSOCKET SERVER",/* 2 */
-      "DNS & SSL SYSTEM",/* 3 */
-      "API REST",/* 4 */
-      "SESSION",/* 5 */
-      "DATABASE INTEGRATION",/* 6 */
-      "MAILER INTEGRATION",/* 7 */
-      "DATA ANALYCTICS",/* 8 */
-      "MATH SOLVER"/* 9 */
-      
+      "SCRIPTING",
+      "HTTP SERVER",
+      "WEBSOCKET SERVER",
+      "DNS & SSL SYSTEM",
+      "PROXY SERVER",
+      "API REST",
+      "SESSION",
+      "DATABASE INTEGRATION",
+      "MAILER INTEGRATION",
+      "DATA ANALYTICS",
+      "MATH SOLVER"
+
     ];
 
     const tech_data = [
 
       {
         name: "PHP",
-        scrip: 1,
-        http: 1,
-        ws: 1,
-        dns: 1,
-        api: 1,
-        session: 1,
-        db: 1,
-        mailer: 1,
-        data: 0,
-        math: 0
+        path: "/assets/tech_icon/php.png",
+        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b']
       },
       {
         name: "NodeJS",
-        scrip: 1,
-        http: 1,
-        ws: 1,
-        dns: 0,
-        api: 1,
-        session: 1,
-        db: 1,
-        mailer: 0,
-        data: 0,
-        math: 0
+        path: "/assets/tech_icon/nodejs.svg",
+        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b']
       },
       {
         name: "Python",
-        scrip: 1,
-        http: 1,
-        ws: 0,
-        dns: 0,
-        api: 0,
-        session: 0,
-        db: 1,
-        mailer: 0,
-        data: 1,
-        math: 1
+        path: "/assets/tech_icon/python.png",
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', 'green', 'green']
       },
       {
         name: "C#",
-        scrip: 1,
-        http: 1,
-        ws: 0,
-        dns: 0,
-        api: 0,
-        session: 0,
-        db: 0,
-        mailer: 0,
-        data: 0,
-        math: 0
+        path: "/assets/tech_icon/c.png",
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
       }
 
     ];
@@ -79,15 +48,95 @@ var mod_realtime_tech = {
     /*------------------------------------------------------------------------*/
 
 
+    append('body', `
+
+    <div class='in tech-title' style='text-align: center;'>SERVER <br> TECH STACK</div>
+    <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; OPERATIVE <span class='abs legend-green' style='color: green; font-size: 50px;'>•</span></div>
+    <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; PENDING <span class='abs legend-green' style='color: #e3c70b; font-size: 50px;'>•</span></div>
+
+    `);
+
+
+    /*------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------*/
+
+
+    for(let i=0;i<l(tech_data);i++){
+
+      let row_tech = '';
+
+      console.log(tech_data[i]);
+
+      for(let ii=0;ii<l(tech_data[i].state);ii++){
+
+        row_tech = row_tech + `
+
+        <div class='in row-tech'>
+
+          <div class='inl row-1'>
+
+            <div class='abs txt-row-1'>
+
+              `+tech_header[ii]+`
+
+            </div>
+
+          </div>
+
+          <div class='inl row-0'>
+
+            <div class='abs center circle' style='background: `+tech_data[i].state[ii]+`;'>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        `;
+
+      }
+
+      append('body', `
+
+
+      <br>
+
+      <pad_0 class='in'>
+
+        <pad_1 class='in'>
+
+          <br>
+
+          <div class='in sub-tech-title'>
+
+            `+tech_data[i].name+`
+
+          </div>
+
+          <div class='in logo-tech'>
+
+            <img class='abs center tech_icon' src='`+path+tech_data[i].path+`'>
+
+          </div>
+
+          `+row_tech+`
+
+          <br>
+
+          <br>
+
+        </pad_1>
+
+      </pad_0>
 
 
 
 
 
+      `);
 
-
-
-
+    }
 
 
 
