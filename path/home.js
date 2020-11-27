@@ -17,13 +17,15 @@ s('body').style.backgroundSize = '100% 100%'
 
 s('body').style.backgroundSize = '100%';
 
-/*notclick('html', 0, false);
+notclick('html', 0, false);
 notclick('html', 1, false);
-notclick('html', 2, false);*/
+notclick('html', 2, false);
 
 
 mod_loader.init();
 mod_hall.init();
+mod_projects.init();
+mod_footer.init();
 
 
 particlesJS('particles-js',
@@ -153,7 +155,7 @@ function rr(){
 		data.lastW=s('body').clientWidth;
 		data.lastH=s('body').clientHeight;
 
-		if(data.lastW>500){
+		if(data.lastW>600){
 
 			data.movil = false;
 
@@ -165,17 +167,38 @@ function rr(){
 
 		console.log('movil ->'+data.movil);
 
+    /* -------------------------------------------------------------------------- */
+		/* -------------------------------------------------------------------------- */
+
+    if(data.movil){
+
+      s('.title-content').style.height = '30%';
+
+      s('.pc1').style.width = '100%';
+      s('.pc2').style.width = '100%';
+      s('.pc3').style.width = '100%';
+
+      s('.foc1').style.width = '100%';
+      s('.foc2').style.width = '100%';
+
+    }else{
+
+      s('.title-content').style.height = '100%';
+
+      s('.pc1').style.width = ((100/3)+'%');
+      s('.pc2').style.width = ((100/3)+'%');
+      s('.pc3').style.width = ((100/3)+'%');
+
+      s('.foc1').style.width = '50%';
+      s('.foc2').style.width = '50%';
+
+    }
+
+    mod_hall.rr();
+
 		/* -------------------------------------------------------------------------- */
 		/* -------------------------------------------------------------------------- */
 
-		setTimeout(function(){
-
-
-
-		}, 950);
-
-		/* -------------------------------------------------------------------------- */
-		/* -------------------------------------------------------------------------- */
 
 	}
 

@@ -1,0 +1,29 @@
+
+.foc1 {
+
+  height: 200px;
+
+}
+
+
+.foc2 {
+
+  height: 200px;
+  font-size: 24px;
+
+}
+
+.img-git {
+
+  width: 250px;
+  filter: invert(100%);
+  transition: .2s;
+  cursor: pointer;
+
+}
+
+.img-git:hover {
+
+  width: 255px;
+
+}
