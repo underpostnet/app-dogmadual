@@ -25,6 +25,18 @@ var mod_loader = {
 		</loader>
 
 
+		<div class='abs content-pjs'>
+
+    	<div class='particles-js' id='particles-js'>
+
+			</div>
+
+		</div>
+
+		<div class='abs main-content'>
+
+
+		</div>
 
 		`);
 
