@@ -1,6 +1,7 @@
-var mod_realtime_tech = {
+var mod_tech = {
 
   init: function(){
+
 
     const tech_header = [
 
@@ -47,17 +48,21 @@ var mod_realtime_tech = {
     /*------------------------------------------------------------------------*/
     /*------------------------------------------------------------------------*/
 
+    append('.main-content', `<div class='tech-content-movil' style='display: none;'></div>`);
 
-    append('body', `
+    append('.tech-content-movil', `
 
-    <div class='in content-legend'>
+    <br>
+
+    <br>
+
+    <div class='in content-legend-movil'>
       <div class='in tech-title' style='text-align: center;'>SERVER <br> TECH STACK</div>
-      <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; OPERATIVE <span class='abs legend-green' style='color: green; font-size: 50px;'>•</span></div>
-      <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; PENDING <span class='abs legend-green' style='color: #e3c70b; font-size: 50px;'>•</span></div>
+      <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; OPERATIVE <span class='abs legend-tech-color' style='color: green; font-size: 50px;'>•</span></div>
+      <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; PENDING <span class='abs legend-tech-color' style='color: #e3c70b; font-size: 50px;'>•</span></div>
     </div>
 
     `);
-
 
     /*------------------------------------------------------------------------*/
     /*------------------------------------------------------------------------*/
@@ -99,7 +104,7 @@ var mod_realtime_tech = {
 
       }
 
-      append('body', `
+      append('.tech-content-movil', `
 
 
       <br>
@@ -110,7 +115,7 @@ var mod_realtime_tech = {
 
           <br>
 
-          <div class='in sub-tech-title'>
+          <div class='in title-language'>
 
             `+tech_data[i].name+`
 
@@ -144,6 +149,8 @@ var mod_realtime_tech = {
 
     /*------------------------------------------------------------------------*/
     /*------------------------------------------------------------------------*/
+
+
 
   }
 

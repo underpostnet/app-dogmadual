@@ -3,14 +3,14 @@ var mod_projects = {
   init: function(){
 
 
-    var str1en = "Is a virtual laboratory that develop technologies to web hosting service nexodev.org, and the virtual world cyberiaonline.com";
-    var str1es = "Es un laboratorio virtual que desarrolla tecnologías para el servicio de alojamiento web nexodev.org, y el mundo virtual cyberiaonline.com";
+    var str1en = "Virtual laboratory that develop technologies to web hosting service nexodev.org, and the virtual world cyberiaonline.com";
+    var str1es = "Laboratorio virtual que desarrolla tecnologías para el servicio de alojamiento web nexodev.org, y el mundo virtual cyberiaonline.com";
 
-    var str2en = "Is a web hosting service for Wordpress and multiplatform applications. It's also the service in charge of developing applications for clients that require it";
-    var str2es = "Es un servicio de alojamiento web para Wordpress y aplicaciones multiplataforma. También es el servicio encargado de desarrollar aplicaciones para clientes que lo requieran";
+    var str2en = "Web hosting service for Wordpress and multiplatform applications. It's also the service in charge of developing applications for clients that require it";
+    var str2es = "Servicio de alojamiento web para Wordpress y aplicaciones multiplataforma. También es el servicio encargado de desarrollar aplicaciones para clientes que lo requieran";
 
-    var str3en = "Is a multiplatform virtual world  with characteristics of a MMORPG (massively multiplayer online role-playing game) Complemented with the characteristics of modern social networks";
-    var str3es = "Es un mundo virtual multiplataforma con características de un MMORPG (juego de rol multijugador masivo en línea) Complementado con las características de las redes sociales modernas";
+    var str3en = "Multiplatform virtual world  with characteristics of a MMORPG (massively multiplayer online role-playing game) Complemented with the characteristics of modern social networks";
+    var str3es = "Mundo virtual multiplataforma con características de un MMORPG (juego de rol multijugador masivo en línea) Complementado con las características de las redes sociales modernas";
 
 
 

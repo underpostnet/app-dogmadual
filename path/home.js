@@ -25,7 +25,9 @@ notclick('html', 2, false);
 mod_loader.init();
 mod_hall.init();
 mod_projects.init();
+mod_tech.init();
 mod_footer.init();
+
 
 
 particlesJS('particles-js',
@@ -181,6 +183,8 @@ function rr(){
       s('.foc1').style.width = '100%';
       s('.foc2').style.width = '100%';
 
+      s('.tech-content-movil').style.display = 'block';
+
     }else{
 
       s('.title-content').style.height = '100%';
@@ -191,6 +195,8 @@ function rr(){
 
       s('.foc1').style.width = '50%';
       s('.foc2').style.width = '50%';
+
+      s('.tech-content-movil').style.display = 'none';
 
     }
 
