@@ -25,7 +25,7 @@ notclick('html', 2, false);
 
 mod_loader.init();
 mod_hall.init();
-mod_projects.init();
+/* mod_projects.init(); */
 mod_tech.init();
 mod_footer.init();
 
@@ -177,9 +177,13 @@ function rr(){
 
       s('.title-content').style.height = '30%';
 
+      /*
+
       s('.pc1').style.width = '100%';
       s('.pc2').style.width = '100%';
       s('.pc3').style.width = '100%';
+
+      */
 
       s('.foc1').style.width = '100%';
       s('.foc2').style.width = '100%';
@@ -196,9 +200,13 @@ function rr(){
 
       s('.title-content').style.height = '100%';
 
+      /*
+
       s('.pc1').style.width = ((100/3)+'%');
       s('.pc2').style.width = ((100/3)+'%');
       s('.pc3').style.width = ((100/3)+'%');
+
+      */
 
       s('.foc1').style.width = '50%';
       s('.foc2').style.width = '50%';
@@ -210,6 +218,8 @@ function rr(){
 
       s('.tech-content-movil').style.display = 'none';
       s('.tech-content-pc').style.display = 'block';
+
+
 
     }
 

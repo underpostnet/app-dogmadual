@@ -26,7 +26,7 @@ notclick('html', 2, false);
 mod_loader.init();
 mod_hall.init();
 mod_projects.init();
-mod_tech.init();
+/* mod_tech.init(); */
 mod_footer.init();
 
 
@@ -184,6 +184,8 @@ function rr(){
       s('.foc1').style.width = '100%';
       s('.foc2').style.width = '100%';
 
+      /*
+
       s('.content-legend-movil').style.margin = 'auto';
       s('.content-legend-movil').style.marginLeft = 'none';
       s('.space-pc-tech-legend-1').style.display = 'none';
@@ -191,6 +193,8 @@ function rr(){
 
       s('.tech-content-movil').style.display = 'block';
       s('.tech-content-pc').style.display = 'none';
+
+      */
 
     }else{
 
@@ -203,6 +207,8 @@ function rr(){
       s('.foc1').style.width = '50%';
       s('.foc2').style.width = '50%';
 
+      /*
+
       s('.content-legend-movil').style.margin = 'none';
       s('.content-legend-movil').style.marginLeft = '20%';
       s('.space-pc-tech-legend-1').style.display = 'block';
@@ -210,6 +216,8 @@ function rr(){
 
       s('.tech-content-movil').style.display = 'none';
       s('.tech-content-pc').style.display = 'block';
+
+      */
 
     }
 

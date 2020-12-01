@@ -57,7 +57,11 @@ var mod_tech = {
     <div class='space-pc-tech-legend-1' style='display: none; height: 100px;'></div>
 
     <div class='in content-legend-movil'>
-      <div class='in tech-title' style='text-align: center;'>SERVER <br> TECH STACK</div>
+      <div class='in tech-title' style='text-align: center;'>
+
+      <a class='estandar-link' href='https://www.dogmadual.com/tech/'>SERVER <br> TECH STACK</a>
+
+      </div>
       <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; OPERATIVE <span class='abs legend-tech-color' style='color: green; font-size: 50px;'>•</span></div>
       <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; PENDING <span class='abs legend-tech-color' style='color: #e3c70b; font-size: 50px;'>•</span></div>
     </div>

@@ -6,21 +6,25 @@ var mod_hall = {
 
         <div class='in title-content'>
 
-            <div class='abs center'>
+            <a href='https://www.dogmadual.com/' style='color: white;'>
 
-              <img class='inl img-logo' src='`+path+`/assets/dogmadual_pad_alpha.png'>
+              <div class='abs center'>
 
-              <span class='inl txt-logo-0'><strong>DOGMADUAL</strong>.com</span>
+                <img class='inl img-logo' src='`+path+`/assets/dogmadual_pad_alpha.png'>
 
-              <br>
+                <span class='inl txt-logo-0'><strong>DOGMADUAL</strong>.com</span>
 
-              <span class='inl txt-logo-1'>
+                <br>
 
-                VIRTUAL MACHINE DEVELOPMENT
+                <span class='inl txt-logo-1'>
 
-              </span>
+                  VIRTUAL MACHINE DEVELOPMENT
 
-            </div>
+                </span>
+
+              </div>
+
+            </a>
 
         </div>
 

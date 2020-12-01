@@ -37,3 +37,16 @@ loader {
 	overflow-y: auto;
 
 }
+
+.estandar-link {
+
+	color: white;
+	text-decoration: none;
+
+}
+
+.estandar-link:hover {
+
+	text-decoration: underline;
+
+}

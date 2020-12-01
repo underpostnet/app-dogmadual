@@ -18,7 +18,7 @@ var mod_projects = {
 
       <div class='in title-projects'>
 
-        OUR PROJECTS
+        <a class='estandar-link' href='https://www.dogmadual.com/projects/'>OUR PROJECTS</a>
 
         <br>
 
