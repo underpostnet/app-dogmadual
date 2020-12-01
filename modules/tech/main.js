@@ -48,13 +48,13 @@ var mod_tech = {
     /*------------------------------------------------------------------------*/
     /*------------------------------------------------------------------------*/
 
-    append('.main-content', `<div class='tech-content-movil' style='display: none;'></div>`);
-
-    append('.tech-content-movil', `
+    append('.main-content', `
 
     <br>
 
     <br>
+
+    <div class='space-pc-tech-legend-1' style='display: none; height: 100px;'></div>
 
     <div class='in content-legend-movil'>
       <div class='in tech-title' style='text-align: center;'>SERVER <br> TECH STACK</div>
@@ -62,7 +62,11 @@ var mod_tech = {
       <div class='in tech-sub-title'> &nbsp;&nbsp;&nbsp; PENDING <span class='abs legend-tech-color' style='color: #e3c70b; font-size: 50px;'>•</span></div>
     </div>
 
+    <div class='space-pc-tech-legend-2' style='display: none; height: 30px;'></div>
+
     `);
+
+    append('.main-content', `<div class='tech-content-movil' style='display: none;'></div>`);
 
     /*------------------------------------------------------------------------*/
     /*------------------------------------------------------------------------*/
@@ -144,6 +148,141 @@ var mod_tech = {
       `);
 
     }
+
+
+
+    /*------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------*/
+
+    append('.main-content', `
+
+    <div class='tech-content-pc' style='display: none;'>
+
+      <br>
+
+      <br>
+
+      <br>
+
+      <br>
+
+      <div class='fl content-pc-fl'>
+
+          <div class='fll row-pc-tech row-pc-tech-1' style='width: 40%;'>
+
+
+
+          </div>
+
+          <div class='fll row-pc-tech row-pc-tech-2' style='width: 15%;'>
+
+
+
+          </div>
+
+          <div class='fll row-pc-tech row-pc-tech-3' style='width: 15%;'>
+
+
+
+          </div>
+
+          <div class='fll row-pc-tech row-pc-tech-4' style='width: 15%;'>
+
+
+
+          </div>
+
+          <div class='fll row-pc-tech row-pc-tech-5' style='width: 15%;'>
+
+
+
+          </div>
+
+
+      </div>
+
+      <br>
+
+      <br>
+
+      <br>
+
+      <br>
+
+    </div>
+
+
+    `);
+
+
+      append('.row-pc-tech-1', `
+
+
+      <div class='in co-pc' style='height: 123px;'>
+
+      </div>
+
+      <br>
+
+
+      `);
+
+      for(let i=0;i<l(tech_header);i++){
+
+        append('.row-pc-tech-1', `
+
+
+        <div class='in co-pc'>
+
+          <div class='in txt-tech-pc'>`+tech_header[i]+`</div>
+
+        </div>
+
+
+        `);
+
+      }
+
+      for(let i=0;i<l(tech_data);i++){
+
+        append(('.row-pc-tech-'+(i+2)), `
+
+        <div class='in title-language'>
+
+          `+tech_data[i].name+`
+
+        </div>
+
+        <br>
+
+        <div class='in co-pc' style='height: 100px;'>
+
+          <img class='in img-logo-tech-pc' src='`+path+tech_data[i].path+`'>
+
+        </div>
+
+
+        `);
+
+        for(let ii=0;ii<l(tech_data[i].state);ii++){
+
+          append(('.row-pc-tech-'+(i+2)), `
+
+
+          <div class='in co-pc'>
+
+            <div class='abs center circle' style='background: `+tech_data[i].state[ii]+`;'>
+
+            </div>
+
+          </div>
+
+
+          `);
+
+        }
+
+      }
 
 
 
