@@ -14,6 +14,7 @@ var mod_tech = {
       "SESSION",
       "DATABASE INTEGRATION",
       "MAILER INTEGRATION",
+      "LIVE MEDIA STREAM",
       "DATA ANALYTICS",
       "MATH SOLVER"
 
@@ -24,22 +25,22 @@ var mod_tech = {
       {
         name: "PHP",
         path: "/assets/tech_icon/php.png",
-        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b']
       },
       {
         name: "NodeJS",
         path: "/assets/tech_icon/nodejs.svg",
-        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', '#e3c70b', 'green', '#e3c70b', '#e3c70b']
       },
       {
         name: "Python",
         path: "/assets/tech_icon/python.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', 'green', 'green']
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', 'green', 'green']
       },
       {
         name: "C#",
         path: "/assets/tech_icon/c.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
       }
 
     ];
