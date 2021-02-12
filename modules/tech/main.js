@@ -30,7 +30,7 @@ var mod_tech = {
       {
         name: "NodeJS",
         path: "/assets/tech_icon/nodejs.svg",
-        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', '#e3c70b', 'green', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b']
       },
       {
         name: "Python",
