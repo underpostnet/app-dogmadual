@@ -16,7 +16,8 @@ var mod_tech = {
       "MAILER INTEGRATION",
       "LIVE MEDIA STREAM",
       "DATA ANALYTICS",
-      "MATH SOLVER"
+      "MATH SOLVER",
+      "BLOCKCHAIN"
 
     ];
 
@@ -25,22 +26,27 @@ var mod_tech = {
       {
         name: "PHP",
         path: "/assets/tech_icon/php.png",
-        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
       },
       {
         name: "NodeJS",
         path: "/assets/tech_icon/nodejs.svg",
-        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b']
+        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', 'green']
       },
       {
         name: "Python",
         path: "/assets/tech_icon/python.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', 'green', 'green']
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', 'green', 'green', '#e3c70b']
       },
       {
         name: "C#",
         path: "/assets/tech_icon/c.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
+      },
+      {
+        name: "Scheme",
+        path: "/assets/tech_icon/lambda.png",
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
       }
 
     ];
@@ -173,7 +179,7 @@ var mod_tech = {
 
       <div class='fl content-pc-fl'>
 
-          <div class='fll row-pc-tech row-pc-tech-1' style='width: 40%;'>
+          <div class='fll row-pc-tech row-pc-tech-1' style='width: 25%;'>
 
 
 
@@ -198,6 +204,12 @@ var mod_tech = {
           </div>
 
           <div class='fll row-pc-tech row-pc-tech-5' style='width: 15%;'>
+
+
+
+          </div>
+
+          <div class='fll row-pc-tech row-pc-tech-6' style='width: 15%;'>
 
 
 
