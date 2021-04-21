@@ -46,7 +46,7 @@ var mod_tech = {
       {
         name: "Scheme",
         path: "/assets/tech_icon/lambda.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green']
       }
 
     ];
