@@ -19,7 +19,7 @@ var mod_tech = {
       "DATA ANALYTICS",
       "MATH SOLVER",
       "BLOCKCHAIN",
-      "BACKPROP NEURAL NETWORK"
+      "BACKPROP NEURAL NETWORK (MLP)"
 
     ];
 
