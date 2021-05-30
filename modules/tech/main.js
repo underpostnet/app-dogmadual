@@ -18,6 +18,7 @@ var mod_tech = {
       "LIVE MEDIA STREAM",
       "DATA ANALYTICS",
       "MATH SOLVER",
+      "SYMMETRIC/ASYMMETRIC KEY SYSTEM",
       "BLOCKCHAIN",
       "BACKPROP NEURAL NETWORK (MLP)"
 
@@ -28,27 +29,27 @@ var mod_tech = {
       {
         name: "PHP",
         path: "/assets/tech_icon/php.png",
-        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
       },
       {
         name: "NodeJS",
         path: "/assets/tech_icon/nodejs.svg",
-        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', 'green', '#e3c70b']
+        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', 'green', 'green', '#e3c70b']
       },
       {
         name: "Python",
         path: "/assets/tech_icon/python.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', 'green', 'green', '#e3c70b', 'green']
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', 'green', 'green','#e3c70b', '#e3c70b', 'green']
       },
       {
         name: "C#",
         path: "/assets/tech_icon/c.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b','#e3c70b', '#e3c70b', '#e3c70b']
       },
       {
         name: "Scheme",
         path: "/assets/tech_icon/lambda.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b']
+        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b','#e3c70b', 'green', '#e3c70b']
       }
 
     ];
