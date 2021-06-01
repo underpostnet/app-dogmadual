@@ -9,7 +9,7 @@ var mod_tech = {
       "HTTP SERVER",
       "WEBSOCKET SERVER",
       "DNS & SSL SYSTEM",
-      "PROXY SERVER",
+      "HTTP PROXY SERVER",
       "API REST",
       "SESSION",
       "SQL DATABASE",
