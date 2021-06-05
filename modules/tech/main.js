@@ -18,8 +18,9 @@ var mod_tech = {
       "LIVE MEDIA STREAM",
       "DATA ANALYTICS",
       "MATH SOLVER",
+      "BASE64 CONVERTER",
       "SYMMETRIC/ASYMMETRIC KEY SYSTEM",
-      "BLOCKCHAIN",
+      "BLOCKCHAIN (SHA256)",
       "BACKPROP NEURAL NETWORK (MLP)"
 
     ];
@@ -54,6 +55,15 @@ var mod_tech = {
 
     ];
 
+
+    for(let tech of tech_data){
+      let pos = (l(tech.state)-3);
+      if(tech.name=='NodeJS'){
+        tech.state.splice(pos, 0, 'green');
+      }else{
+        tech.state.splice(pos, 0, '#e3c70b');
+      }
+    }
 
     /*------------------------------------------------------------------------*/
     /*------------------------------------------------------------------------*/
