@@ -6,6 +6,7 @@ var mod_tech = {
     const tech_header = [
 
       "SCRIPTING",
+      "CRUD FILE",
       "HTTP SERVER",
       "WEBSOCKET SERVER",
       "DNS & SSL SYSTEM",
@@ -30,27 +31,27 @@ var mod_tech = {
       {
         name: "PHP",
         path: "/assets/tech_icon/php.png",
-        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b']
       },
       {
         name: "NodeJS",
         path: "/assets/tech_icon/nodejs.svg",
-        state: ['green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', 'green', 'green', '#e3c70b']
+        state: ['green', 'green', 'green', 'green', '#e3c70b', '#e3c70b', 'green', 'green', 'green', 'green', 'green', 'green', 'green', '#e3c70b', 'green', 'green', '#e3c70b']
       },
       {
         name: "Python",
         path: "/assets/tech_icon/python.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', 'green', 'green','#e3c70b', '#e3c70b', 'green']
+        state: ['green', '#e3c70b', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', 'green', 'green','#e3c70b', '#e3c70b', 'green']
       },
       {
         name: "C#",
         path: "/assets/tech_icon/c.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b','#e3c70b', '#e3c70b', '#e3c70b']
+        state: ['green', '#e3c70b', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b','#e3c70b', '#e3c70b', '#e3c70b']
       },
       {
         name: "Scheme",
         path: "/assets/tech_icon/lambda.png",
-        state: ['green', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b','#e3c70b', 'green', '#e3c70b']
+        state: ['green', '#e3c70b', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b', 'green', '#e3c70b', '#e3c70b', '#e3c70b', '#e3c70b','#e3c70b', 'green', '#e3c70b']
       }
 
     ];
